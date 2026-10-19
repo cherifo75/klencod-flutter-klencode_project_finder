@@ -11,6 +11,8 @@ flutter pub get
 flutter build apk --debug
 ```
 
+إذا كان Klencode يشغّل Gradle مباشرة، افتح مجلد المشروع الرئيسي الذي يحتوي على `settings.gradle`، وليس مجلد `android` وحده. ملفات Gradle الموجودة في الجذر أضيفت خصيصًا لهذا النوع من البناء.
+
 ملف التطبيق:
 
 ```text
